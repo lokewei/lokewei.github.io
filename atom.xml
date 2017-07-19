@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Summer Marbles</title>
+  <subtitle>Summer Marbles Cicadas Cumulus &amp; Wind</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lokewei.github.io/"/>
+  <updated>2017-07-19T14:32:08.000Z</updated>
+  <id>http://lokewei.github.io/</id>
+  
+  <author>
+    <name>Loke Wei</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>weex的原理</title>
+    <link href="http://lokewei.github.io/2017/07/19/weex-research/"/>
+    <id>http://lokewei.github.io/2017/07/19/weex-research/</id>
+    <published>2017-07-19T14:15:52.000Z</published>
+    <updated>2017-07-19T14:32:08.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;JS Bridge：主要用来和 JS Engine（V8）进行双向通信，运行在JSBridge线程中。Weex 的初始化，Component、Module、DomObject的注册与调用，JSBridge 线程管理最终都会由JS Bridge 的管理类 W
+    
+    </summary>
+    
+    
+      <category term="weex" scheme="http://lokewei.github.io/tags/weex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://lokewei.github.io/2017/06/09/hello-world/"/>
+    <id>http://lokewei.github.io/2017/06/09/hello-world/</id>
+    <published>2017-06-09T07:29:16.000Z</published>
+    <updated>2017-06-09T07:29:16.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>js-void-0</title>
+    <link href="http://lokewei.github.io/2017/03/09/js-void-0/"/>
+    <id>http://lokewei.github.io/2017/03/09/js-void-0/</id>
+    <published>2017-03-09T11:13:08.000Z</published>
+    <updated>2017-06-09T07:29:16.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天见到js如下的值声明: var1: void 0，等价于: var1: undefined&lt;/p&gt;
+&lt;p&gt;#WTF 为啥要这么写？&lt;/p&gt;
+&lt;p&gt;原因：es5之前js里 undefined不是保留字，而是挂在globa对象上的一个属性可以被重新覆盖定义&lt;/p&gt;
+&lt;blo
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>codewar-kata-walk</title>
+    <link href="http://lokewei.github.io/2017/03/01/codewar-kata-walk/"/>
+    <id>http://lokewei.github.io/2017/03/01/codewar-kata-walk/</id>
+    <published>2017-03-01T03:36:32.000Z</published>
+    <updated>2017-06-09T07:29:16.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;Description:&lt;/p&gt;
+&lt;p&gt;You live in the city of Cartesia where all roads a
+    
+    </summary>
+    
+    
+      <category term="codewar" scheme="http://lokewei.github.io/tags/codewar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>front-test-tools</title>
+    <link href="http://lokewei.github.io/2017/03/01/front-test-tools/"/>
+    <id>http://lokewei.github.io/2017/03/01/front-test-tools/</id>
+    <published>2017-03-01T02:44:36.000Z</published>
+    <updated>2017-06-09T07:29:16.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mocha: 单元测试执行器&lt;br&gt;chai: 断言库&lt;br&gt;sinon: 伪装请求库&lt;br&gt;Enzyme: 基于React的虚拟dom执行虚拟挂载测试&lt;br&gt;karma: 测试任务管理（包含:JsTestDriver, 静态测试, 无头浏览器测试）&lt;/p&gt;
+&lt;p&gt;jest
+    
+    </summary>
+    
+    
+      <category term="单元测试" scheme="http://lokewei.github.io/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
