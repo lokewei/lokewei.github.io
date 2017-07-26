@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lokewei.github.io/"/>
-  <updated>2017-07-25T09:14:16.000Z</updated>
+  <updated>2017-07-26T12:47:00.000Z</updated>
   <id>http://lokewei.github.io/</id>
   
   <author>
@@ -16,11 +16,30 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>front-engineering</title>
+    <title>how-promise</title>
+    <link href="http://lokewei.github.io/2017/07/26/how-promise/"/>
+    <id>http://lokewei.github.io/2017/07/26/how-promise/</id>
+    <published>2017-07-26T12:43:13.000Z</published>
+    <updated>2017-07-26T12:47:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;code&gt;then&lt;/code&gt;只是注册了一些后续的回调&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;resolve&lt;/code&gt;执行后才会触发then注册的动作&lt;/li&gt;
+&lt;li&gt;使用&lt;code&gt;setTimeout(cb, 0)&lt;/code&gt;保证注册的回调在event 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端工程化的思考</title>
     <link href="http://lokewei.github.io/2017/07/25/front-engineering/"/>
     <id>http://lokewei.github.io/2017/07/25/front-engineering/</id>
     <published>2017-07-25T09:11:11.000Z</published>
-    <updated>2017-07-25T09:14:16.000Z</updated>
+    <updated>2017-07-26T12:29:39.000Z</updated>
     
     <summary type="html">
     
