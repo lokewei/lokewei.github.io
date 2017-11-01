@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lokewei.github.io/"/>
-  <updated>2017-09-25T03:23:00.000Z</updated>
+  <updated>2017-10-25T07:30:26.000Z</updated>
   <id>http://lokewei.github.io/</id>
   
   <author>
@@ -14,6 +14,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>wepack-hmr</title>
+    <link href="http://lokewei.github.io/2017/10/23/webpack-hmr/"/>
+    <id>http://lokewei.github.io/2017/10/23/webpack-hmr/</id>
+    <published>2017-10-23T08:10:15.000Z</published>
+    <updated>2017-10-25T07:30:26.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;webpack-dev-middleware 内存编译配合后端的express/koa使用，浏览器请求的文件路径会通过publicPath映射为内存里的文件&lt;br&gt;webpack-hot-middleware 在entry前面嵌入webpack-hot-middleware
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>vue-concept</title>
